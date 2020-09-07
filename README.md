@@ -9,4 +9,6 @@ Example of json format:
     "d2":["admin","cisco123","192.168.0.230","cisco_ios","DEFAULT_CONFIG_3.cfg"]
 }
 
-NOTE: This script utilizes the python netmiko module, so you will need to look up your device_type via netmiko's docs and adjust your json file accordingly.
+NOTE: This script utilizes the python netmiko module, so you will need to look up your device_type via netmiko's docs and adjust your json file accordingly. This sript was also built for linux based systems and assumes your working our of your home-directory:
+
+gpg = gnupg.GPG(gnupghome=f'{os.getcwd()}/.gnupg')
