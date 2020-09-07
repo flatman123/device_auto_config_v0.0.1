@@ -1,0 +1,1 @@
+# device_auto_config_v0.0.1
